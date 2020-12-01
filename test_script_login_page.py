@@ -20,7 +20,7 @@ class LoginPage(unittest.TestCase):
         time.sleep(2)
         # get the password textbox
         password = self.driver.find_element_by_id("password")
-        password.send_keys("myonl9shop@12")
+        password.send_keys("Testing@123")
         time.sleep(2)
         NEXT_BUTTON_XPATH = '//input[@type="submit" and @value="Login"]'
         button = self.driver.find_element_by_xpath(NEXT_BUTTON_XPATH)
