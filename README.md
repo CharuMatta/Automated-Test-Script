@@ -1,5 +1,7 @@
 #Introduction
-This script will login into Xtracta website using your credentials.
+test_script_login_page.py:- This script will login into Xtracta website using your credentials.
+max_occuring_str.py:- script to find the maximum occurring character in a string
+
 
 #Installation
 yum install -y python3
